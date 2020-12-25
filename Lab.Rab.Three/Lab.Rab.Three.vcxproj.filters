@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\realization">
+      <UniqueIdentifier>{795d053f-9dad-466c-ae52-a1f365c9d2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\images">
+      <UniqueIdentifier>{481125d8-edba-4b83-bde3-ac51e8555600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Initialization">
+      <UniqueIdentifier>{02fa8009-8de1-45b3-a1c4-0c010d5cff81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\images\dance">
+      <UniqueIdentifier>{c48e3351-e1b3-4cf5-a301-41a7f6374e38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="windowsForm.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="calculate_Speed.cpp">
+      <Filter>Исходные файлы\realization</Filter>
+    </ClCompile>
+    <ClCompile Include="create_companent.cpp">
+      <Filter>Исходные файлы\Initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeCompanents.cpp">
+      <Filter>Исходные файлы\Initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="init_input.cpp">
+      <Filter>Исходные файлы\Initialization</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="windowsForm.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="prototypes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Resourse.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\dance\5.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\dance\6.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\dance\7.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\dance\8.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\dance\9.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\dance\10.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\dance\11.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\dance\0.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\dance\1.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\dance\2.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\dance\3.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\dance\4.jpg">
+      <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
