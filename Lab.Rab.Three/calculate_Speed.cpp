@@ -20,18 +20,20 @@ Void windowsForm::button_calculate_Click(System::Object^ sender, System::EventAr
 	else
 	{
 		speed = distance / time;
-		int interval = static_cast<int>(100 / speed);
-		if (interval == 0)
+		speed_const = static_cast<int>(speed);
+		if (speed > 10)
 			MessageBox::Show("Этот спортсмен слишком быстрый! Мы не можем показать его скорость!");
-		else if (interval > 2000)
+		else if (speed < 0.05)
 			MessageBox::Show("Этот спортсмен слишком медленный! Он почти стоит на месте!");
 		else
 		{
 			//animation->Interval = interval;
 			label_result->Text = "Результат: " + speed.ToString() + " м/с";
+			
+
 			animation->Start();
-			//this->animation->Enabled = true; // запускаем таймер
 			//this->animation->Interval = 500; // устанавливаем интервал таймера в 50 миллисекунд
+			//this->animation->Enabled = true; // запускаем таймер
 			//rectangle = rectangle_animation->CreateGraphics();
 			//rectangle->Clear(Color::WhiteSmoke);
 			//rectangle->TranslateTransform(110, 110);

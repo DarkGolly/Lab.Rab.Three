@@ -24,7 +24,9 @@ void LabRabThree::windowsForm::InitializeComponent(void)
     this->panel_chart = (gcnew Windows::Forms::Panel());
     this->button_plot = (gcnew System::Windows::Forms::Button());
     this->animation = (gcnew System::Windows::Forms::Timer(this->components));
-    this->pictures = (gcnew System::Windows::Forms::ImageList(this->components));
+    this->pictures_dance = (gcnew System::Windows::Forms::ImageList(this->components));
+    this->pictures_run1 = (gcnew System::Windows::Forms::ImageList(this->components));
+    this->pictures_run2 = (gcnew System::Windows::Forms::ImageList(this->components));
     this->groupBox1->SuspendLayout();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart))->BeginInit();
@@ -121,9 +123,9 @@ void LabRabThree::windowsForm::InitializeComponent(void)
     this->pictureBox1->Name = L"pictureBox1";
     this->pictureBox1->Size = System::Drawing::Size(500, 281);
     this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+    this->pictureBox1->Visible = false;
     this->pictureBox1->TabIndex = 6;
     this->pictureBox1->TabStop = false;
-    this->pictureBox1->Click += gcnew System::EventHandler(this, &windowsForm::pictureBox1_Click);
     // 
     // chart
     // 
@@ -163,7 +165,6 @@ void LabRabThree::windowsForm::InitializeComponent(void)
     this->chart1->TabIndex = 10;
     this->chart1->Text = L"chart1";*/
     
-    this->chart->Click += gcnew System::EventHandler(this, &windowsForm::chart1_Click);
 
     this->panel_chart->Controls->Add(button_plot);
     this->panel_chart->Controls->Add(chart);
@@ -190,12 +191,26 @@ void LabRabThree::windowsForm::InitializeComponent(void)
     // 
     // pictures
     // 
-    this->pictures->ImageStream = (cli::safe_cast<System::Windows::Forms::ImageListStreamer^>(resources->GetObject(L"pictures.ImageStream")));
-    this->pictures->TransparentColor = System::Drawing::Color::Transparent;
-    this->pictures->ImageSize = Drawing::Size(256, 186);
+    this->pictures_dance->ImageStream = (cli::safe_cast<System::Windows::Forms::ImageListStreamer^>(resources->GetObject(L"pictures.ImageStream")));
+    this->pictures_dance->TransparentColor = System::Drawing::Color::Transparent;
+    this->pictures_dance->ImageSize = Drawing::Size(256, 186);
+    loadingImages("dance");
+
+    this->pictures_run1->ImageStream = (cli::safe_cast<System::Windows::Forms::ImageListStreamer^>(resources->GetObject(L"pictures.ImageStream")));
+    this->pictures_run1->TransparentColor = System::Drawing::Color::Transparent;
+    this->pictures_run1->ImageSize = Drawing::Size(256, 186);
+    loadingImages("run1");
+
+    this->pictures_run2->ImageStream = (cli::safe_cast<System::Windows::Forms::ImageListStreamer^>(resources->GetObject(L"pictures.ImageStream")));
+    this->pictures_run2->TransparentColor = System::Drawing::Color::Transparent;
+    this->pictures_run2->ImageSize = Drawing::Size(256, 186);
+    loadingImages("run2");
+    
     //const int FRAMES_COUNT = 10;
-    for (int i = 0; i < 12; i++)
-        pictures->Images->Add(Image::FromFile("images/dance/" + i + ".jpg"));
+    //loadingImages(1);
+    /*for (int i = 0; i < 12; i++)
+        pictures->Images->Add(Image::FromFile("images/dance/" + i + ".jpg"));*/
+
     //this->pictures->Images->SetKeyName(0, L"0.jpg");
     // 
     // windowsForm

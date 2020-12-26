@@ -25,6 +25,12 @@
     <Filter Include="Исходные файлы\images\dance">
       <UniqueIdentifier>{c48e3351-e1b3-4cf5-a301-41a7f6374e38}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\images\run1">
+      <UniqueIdentifier>{c4b6dc8d-4156-4376-ae71-4f8b89ed4241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\images\run2">
+      <UniqueIdentifier>{fec4f818-ba1d-43af-a39c-5e026ef1c1ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="windowsForm.cpp">
@@ -44,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="init_input.cpp">
       <Filter>Исходные файлы\Initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="loading_images.cpp">
+      <Filter>Исходные файлы\realization</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +105,198 @@
     </Image>
     <Image Include="images\dance\4.jpg">
       <Filter>Исходные файлы\images\dance</Filter>
+    </Image>
+    <Image Include="images\run1\1.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\2.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\3.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\4.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\5.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\6.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\7.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\8.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\9.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\10.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\11.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\12.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\13.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\14.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\15.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\16.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\17.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\18.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\19.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\20.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\21.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\22.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\23.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\24.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\25.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\26.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\27.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\28.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\29.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\30.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\31.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\32.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\33.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\34.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\35.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\36.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\37.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\38.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\39.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\40.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\41.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\42.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\43.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\44.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\45.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\46.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\47.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\48.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run1\0.jpg">
+      <Filter>Исходные файлы\images\run1</Filter>
+    </Image>
+    <Image Include="images\run2\0.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\1.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\2.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\3.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\4.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\5.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\6.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\7.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\8.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\9.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\10.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\11.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\12.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\13.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
+    </Image>
+    <Image Include="images\run2\14.jpg">
+      <Filter>Исходные файлы\images\run2</Filter>
     </Image>
   </ItemGroup>
 </Project>

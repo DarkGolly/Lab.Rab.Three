@@ -7,10 +7,11 @@ using namespace System;
 using namespace Windows::Forms;
 
 [STAThread]
-void main(array<String^>^ args)
+int main()
 {
 	Application::EnableVisualStyles(); // включает визуальные стили
 	Application::SetCompatibleTextRenderingDefault(false); // настройка совместимого отображения текста по умолчанию
 
 	Application::Run(gcnew LabRabThree::windowsForm());
+	return 0;
 }
