@@ -21,7 +21,7 @@ void LabRabThree::windowsForm::InitializeComponent(void)
     this->label_result = (gcnew System::Windows::Forms::Label());
     this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
     this->chart = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
-    this->panel_chart = (gcnew Windows::Forms::Panel());
+    //this->panel_chart = (gcnew Windows::Forms::Panel());
     this->button_plot = (gcnew System::Windows::Forms::Button());
     this->animation = (gcnew System::Windows::Forms::Timer(this->components));
     this->pictures_dance = (gcnew System::Windows::Forms::ImageList(this->components));
@@ -30,7 +30,7 @@ void LabRabThree::windowsForm::InitializeComponent(void)
     this->groupBox1->SuspendLayout();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart))->BeginInit();
-    this->panel_chart->SuspendLayout();
+    //this->panel_chart->SuspendLayout();
     this->SuspendLayout();
     // 
     // textBox2
@@ -113,7 +113,7 @@ void LabRabThree::windowsForm::InitializeComponent(void)
     this->label_result->ImageAlign = System::Drawing::ContentAlignment::BottomRight;
     this->label_result->Location = System::Drawing::Point(13, 325);
     this->label_result->Name = L"label_result";
-    this->label_result->Size = System::Drawing::Size(138, 35);
+    this->label_result->Size = System::Drawing::Size(140, 40);
     this->label_result->TabIndex = 5;
     this->label_result->Text = L"Результат:";
     // 
@@ -121,7 +121,7 @@ void LabRabThree::windowsForm::InitializeComponent(void)
     // 
     this->pictureBox1->Location = System::Drawing::Point(750, 12);
     this->pictureBox1->Name = L"pictureBox1";
-    this->pictureBox1->Size = System::Drawing::Size(500, 281);
+    this->pictureBox1->Size = System::Drawing::Size(398, 290);
     this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
     this->pictureBox1->Visible = false;
     this->pictureBox1->TabIndex = 6;
@@ -132,20 +132,21 @@ void LabRabThree::windowsForm::InitializeComponent(void)
     chart->ChartAreas->Add(chartArea1);
     legend1->BackColor = Color::WhiteSmoke;
     chart->Legends->Add(legend1);
-    chart->Location = Point(750, 300);
+    chart->Location = Point(750, 305);
     series1->ChartType = Windows::Forms::DataVisualization::Charting::SeriesChartType::Spline;
     series1->Name = L"f(x)";
     series1->LabelBackColor = Color::WhiteSmoke;
     series1->BorderWidth = 4;
     chart->Series->Add(series1);
-    chart->Size = Drawing::Size(313, 209);
+    chart->Size = Drawing::Size(398, 290);
 
     chart->ChartAreas[0]->Position->Height = 100;
     chart->ChartAreas[0]->Position->Width = 100;
-    chart->ChartAreas[0]->Position->X = 10;
-    chart->ChartAreas[0]->Position->Y = 10;
+    chart->ChartAreas[0]->Position->X = 12;
+    chart->ChartAreas[0]->Position->Y = 12;
 
-    chart->BackColor = Color::WhiteSmoke;
+
+    chart->BackColor = Color::FromArgb(153, 180, 209);
     chart->ChartAreas[0]->BackColor = Color::WhiteSmoke;
 
 
@@ -166,11 +167,11 @@ void LabRabThree::windowsForm::InitializeComponent(void)
     this->chart1->Text = L"chart1";*/
     
 
-    this->panel_chart->Controls->Add(button_plot);
+    /*this->panel_chart->Controls->Add(button_plot);
     this->panel_chart->Controls->Add(chart);
     this->panel_chart->Location = Point(750, 300);
     this->panel_chart->Size = Drawing::Size(457, 224);
-    this->panel_chart->BackColor = Color::WhiteSmoke;
+    this->panel_chart->BackColor = Color::WhiteSmoke;*/
     // 
     // button_plot
     // 
@@ -218,10 +219,10 @@ void LabRabThree::windowsForm::InitializeComponent(void)
     this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Inherit;
     this->BackColor = System::Drawing::SystemColors::ActiveCaption;
     this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
-    this->ClientSize = System::Drawing::Size(1262, 673);
+    this->ClientSize = System::Drawing::Size(1148, 595);
     this->Controls->Add(this->button_plot);
     this->Controls->Add(this->chart);
-    this->Controls->Add(this->panel_chart);
+    //this->Controls->Add(this->panel_chart);
     this->Controls->Add(this->pictureBox1);
     this->Controls->Add(this->label_result);
     this->Controls->Add(this->groupBox1);

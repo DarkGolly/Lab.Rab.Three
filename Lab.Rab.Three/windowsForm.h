@@ -32,7 +32,7 @@ namespace LabRabThree {
 		int i = 0;
 		System::Windows::Forms::PictureBox^ pictureBox1;
 		System::Windows::Forms::DataVisualization::Charting::Chart^ chart;
-		Windows::Forms::Panel^ panel_chart;
+		//Windows::Forms::Panel^ panel_chart;
 		System::Windows::Forms::Button^ button_plot;
 		System::Windows::Forms::Timer^ animation;
 		int speed_const;
@@ -69,8 +69,8 @@ namespace LabRabThree {
 				   rnd->Next(0, 255),
 				   rnd->Next(0, 255),
 				   rnd->Next(0, 255));
-			   for (int i = 0; i < 10; i++)
-				   chart->Series[0]->Points->AddXY(i, rnd->Next(0, 11));
+			   for (int i = 0; i < 12; i++)
+				   chart->Series[0]->Points->AddXY(i, rnd->Next(0, 12));
 			   chart->Refresh();
 		   }
 		   Void groupBox2_Enter(System::Object^ sender, System::EventArgs^ e) 
@@ -107,11 +107,11 @@ namespace LabRabThree {
 		}
 		else
 		{
-			if (speed_const <= 2)
+			if (speed_const <= 1.6)
 			{
 				pictureBox1->Image = pictures_dance->Images[animation_repeats % 11];
 			}
-			else if (speed_const > 2 && speed_const < 8)
+			else if (speed_const > 1.6 && speed_const < 8)
 			{
 				pictureBox1->Image = pictures_run1->Images[animation_repeats % 47];
 			}
