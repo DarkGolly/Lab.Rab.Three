@@ -1,7 +1,5 @@
 #include "pch.h"
 
-using namespace LabRabThree;
-
 Void windowsForm::button_calculate_Click(System::Object^ sender, System::EventArgs^ e)//высчитывание скорости
 {
 	double distance, time, speed;
@@ -12,32 +10,23 @@ Void windowsForm::button_calculate_Click(System::Object^ sender, System::EventAr
 	else if (distance == 0.0)
 		MessageBox::Show("—портсмен стоит на месте целых " + time + " секунд!");
 	else if (time == 0.0)
-		MessageBox::Show("—портсмен не может телепортироватьс€ на " + distance + " метров! ќн вообще не умеет телепортироватьс€!");
+		MessageBox::Show("Ќевозможно бежать " + distance + " метров за 0 секунд!");
 	else if (time < 0.0)
-		MessageBox::Show("—портсмен не может путешествовать во времени!");
+		MessageBox::Show("—портсмен не может пробежать " + distance + "метров до того как стартовал!");
 	else if (distance < 0.0)
-		MessageBox::Show("—портсмен не любит бегать спиной вперед!");
+		MessageBox::Show("—портсмен не должен бегать назада, он должен бегать только вперед!");
 	else
 	{
 		speed = distance / time;
 		speed_const = static_cast<int>(speed);
 		if (speed > 10)
-			MessageBox::Show("Ётот спортсмен слишком быстрый! ћы не можем показать его скорость!");
+			MessageBox::Show("—портсмен слишком быстрый дл€ человека! ѕрограмма не может показать его скорость!");
 		else if (speed < 0.05)
-			MessageBox::Show("Ётот спортсмен слишком медленный! ќн почти стоит на месте!");
+			MessageBox::Show("—портсмен слишком медленный!");
 		else
 		{
-			//animation->Interval = interval;
 			label_result->Text = "–езультат: " + speed.ToString() + " м/с";
-			
-
 			animation->Start();
-			//this->animation->Interval = 500; // устанавливаем интервал таймера в 50 миллисекунд
-			//this->animation->Enabled = true; // запускаем таймер
-			//rectangle = rectangle_animation->CreateGraphics();
-			//rectangle->Clear(Color::WhiteSmoke);
-			//rectangle->TranslateTransform(110, 110);
-			//animation->Start();
 		}
 	}
 }

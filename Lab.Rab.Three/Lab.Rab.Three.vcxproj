@@ -121,12 +121,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="animation_tick.cpp" />
     <ClCompile Include="calculate_Speed.cpp" />
     <ClCompile Include="create_companent.cpp" />
+    <ClCompile Include="creating_plot.cpp" />
     <ClCompile Include="InitializeCompanents.cpp" />
     <ClCompile Include="init_input.cpp" />
+    <ClCompile Include="init_label_result.cpp" />
+    <ClCompile Include="init_pictures_animation.cpp" />
     <ClCompile Include="loading_images.cpp" />
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="plotting.cpp" />
     <ClCompile Include="windowsForm.cpp" />
   </ItemGroup>
   <ItemGroup>

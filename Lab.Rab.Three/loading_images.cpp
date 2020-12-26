@@ -20,5 +20,4 @@ void windowsForm::loadingImages(String^ name)
 			pictures_run2->Images->Add(Image::FromFile("images/run2/" + i + ".jpg"));
 		return;
 	}
-
 }

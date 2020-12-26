@@ -54,6 +54,21 @@
     <ClCompile Include="loading_images.cpp">
       <Filter>Исходные файлы\realization</Filter>
     </ClCompile>
+    <ClCompile Include="plotting.cpp">
+      <Filter>Исходные файлы\realization</Filter>
+    </ClCompile>
+    <ClCompile Include="animation_tick.cpp">
+      <Filter>Исходные файлы\realization</Filter>
+    </ClCompile>
+    <ClCompile Include="init_label_result.cpp">
+      <Filter>Исходные файлы\Initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="creating_plot.cpp">
+      <Filter>Исходные файлы\Initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="init_pictures_animation.cpp">
+      <Filter>Исходные файлы\Initialization</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="windowsForm.h">
