@@ -12,9 +12,9 @@ Void windowsForm::button_calculate_Click(System::Object^ sender, System::EventAr
 	else if (time == 0.0)
 		MessageBox::Show("Невозможно бежать " + distance + " метров за 0 секунд!");
 	else if (time < 0.0)
-		MessageBox::Show("Спортсмен не может пробежать " + distance + "метров до того как стартовал!");
+		MessageBox::Show("Спортсмен не может пробежать " + distance + " метров до того как стартовал!");
 	else if (distance < 0.0)
-		MessageBox::Show("Спортсмен не должен бегать назада, он должен бегать только вперед!");
+		MessageBox::Show("Спортсмен не должен бегать назад, он должен бегать только вперед!");
 	else
 	{
 		speed = distance / time;
